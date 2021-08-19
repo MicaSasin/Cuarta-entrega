@@ -1,0 +1,41 @@
+.seccion{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-evenly;
+
+    .necesito{
+        color: $colorletras;
+        font-size: 13px;
+        margin: 5px;
+    }
+    .detalles{
+        color:$colorletras;
+        text-align: center;
+        border: .5px solid white;
+        padding: 1px;
+        font-size: 13px;
+        margin: 0 10px;
+        padding: 12px 0;
+        width: 130px;
+        @extend %border-radius;
+
+        &:hover{
+            background-color: white;
+            color:black;
+        }
+    }
+    .mainDestacado{
+        width: 30vw;
+        height: 70vh;
+        margin: 10px;
+        padding: 10px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding-bottom: 15px;
+
+    }
+}

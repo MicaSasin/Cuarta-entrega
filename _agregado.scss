@@ -1,0 +1,14 @@
+h3{
+    color:$colorletras;
+    padding-bottom: 15px;
+    width: 205vh;
+    text-align: center;
+    @extend %border-radius;
+
+    &:hover{
+        background-color: white;
+        color: black;
+    }
+
+
+}
